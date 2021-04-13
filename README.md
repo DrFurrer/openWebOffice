@@ -1,2 +1,3 @@
 # openWebOffice
 Just a way to put office stuff to web!
+It not mean classic office, it mean all around it...
