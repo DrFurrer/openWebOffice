@@ -1,0 +1,827 @@
+ p { margin: 0; }
+ .fi_Pointer { cursor: pointer; }
+ .fi_noPointer { cursor: auto; }
+ .fi_CursorZoomIn { cursor: zoom-in; }
+ .fi_Border_0 { border: 0; }
+ .fi_SymbolColorOrange { color: #ffc107; }
+ .fi_SymbolColorOutgoing { color: #188725; }
+ .fi_SymbolColorIncoming { color: #a84c4c; }
+ .fi_DebugWindow { border: 1px solid #aaaaaa; background-color: #eeeeee; }
+ .fi_SearchText { border: 1px solid #ced4da; border-radius: 0.25rem !important; }
+ .fi_TextSearchBackgroundColor { background-color: yellow;}
+ .fi_ceSearchTextBorder { border: 1px solid #ced4da; border-radius: 0.25rem !important; }
+ .fi_assetStatusColorOptimal { color: #28a745; }
+ .fi_assetStatusColorMinorDisturbance { color: #e6d65c; }
+ .fi_assetStatusColorMassiveDisruption { color: #ed7009; }
+ .fi_assetStatusColorCompleteFailure { color: #dc3545; }
+ .fi_assetStatusColorCreate { color: #446396; }
+ .fi_checkedColor { color: green; }
+ .fi_BorderTopLine { border-top: solid 1px #e5e5e5; }
+ .fi_BorderBottomLine { border-bottom: solid 1px #e5e5e5; }
+ .fi_NewCustomerLabel { background-color: #eeeeee; font-style: italic; }
+ .fi_InvoiceStatusSymbolColorPaid { color: #068406; }
+ .fi_InvoiceStatusSymbolColorPosted { color: #cfb20c; }
+ .fi_OrderStatusSymbolPreparable { color: #d99820; border-radius: 50%; animation: shadow-pulse 1s infinite; WebkitAnimation: shadow-pulse 1s infinite; }
+ .fi_OrderStatusSymbolPosted { color: #cfb20c; }
+ .fi_OrderStatusSymbolPaid { color: #068406; }
+ .fi_OrderStatusSymbolPartiallyPosted { color: #d6cc94; }
+ .fi_OrderStatusSymbolPartiallyPaid { color: #a3c456; }
+ .fi_TimerIconAnimated { animation: 1s ease 0s infinite normal none running shadow-pulse-small; }
+ .fi_PageLoaderContent { display: none; z-index:3000; position: fixed; left:0; top:0; width: 100%; height: 100%; background-color: #999999; opacity: 0.8; }
+ .fi_PageInitContent { display: none; z-index:3001; position: fixed; left:0; top:0; width: 100%; height: 100%;  background-color: #ffffff; opacity: 1; }
+ .fi_PasswordStatusBorderOuter { border-style: solid; border-color: #ced4da; border-width: 1px; border-radius: 3px; }
+ .fi_PasswordStatusBorderInner { height: 8px; border-radius: 2px; }
+ .fi_PasswordStreng { padding-left: 3px; font-size: 12px; color: #6c757d; }
+ .fi_TextBold { font-weight: bold; }
+ .fi_FontSize14 { font-size: 14px; }
+ .fi_FontSize19 { font-size: 19px; }
+ .fi_FontSize_rem_075 { font-size: 0.75rem; }
+ .fi_FontSize_rem_100 { font-size: 1.0rem; }
+ .fi_FontSize_rem_110 { font-size: 1.10rem; }
+ .fi_FontWeight_600 { font-weight: 600; }
+ .fi_fullSize { width: 100%; height: 100%; padding: 0; }
+ .fi_vAlignTop { vertical-align: top !important; }
+ .fi_vAlignMiddle { vertical-align: middle !important; }
+ .fi_vAlignBottom { vertical-align: bottom !important; }
+ .fi_textAlignLeft { text-align: left !important; }
+ .fi_textAlignCenter  { text-align: center !important; }
+ .fi_textAlignRight { text-align: right !important; }
+ .fi_textAlignJustify { text-align: justify; }
+ .fi_dispNone { display: none; }
+ .fi_dispNoneImportant { display: none !important; }
+ .fi_dispInline { display: inline; }
+ .fi_dispBlock { display: block; }
+ .fi_dispInlineBlock { display: inline-block; }
+ .fi_overflowAuto { overflow: auto; }
+ .fi_overflowScroll { overflow: scroll; }
+ .fi_overflowHidden { overflow: hidden; }
+ .fi_overflowVisible { overflow: visible; }
+ .fi_overflowXAuto { overflow-x: auto; }
+ .fi_overflowXScroll { overflow-x: scroll; }
+ .fi_overflowXHidden { overflow-x: hidden; }
+ .fi_overflowXVisible { overflow-x: visible; }
+ .fi_overflowYAuto { overflow-y: auto; }
+ .fi_overflowYScroll { overflow-y: scroll; }
+ .fi_overflowYHidden { overflow-y: hidden; }
+ .fi_overflowYVisible { overflow-y: visible; }
+ .fi_TableContentTamplateTableHighColor { background-color: #f2f2f2; }
+ .fi_TableContentTamplateTableBorder {  border-style: solid; border-width: 1px; border-color: #c2c2c2; border-collapse: collapse; }
+ .fi_TableContentTamplateTableTDBorder { border-style: solid; border-width: 0 0 1px 0; border-color: #c2c2c2; }
+ .fi_TableContentTamplateFont { box-sizing: border-box; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; word-break: break-word; }
+ .fi_EmailBodyTableBorder { border: solid 1px #aaaaaa; }
+ .fi_EmailBodyTableColor { background-color: #ffffff; }
+ .fi_EmailBodyTableTDColor { background-color: #d4d5d5; }
+ .fi_SPButtonLink { -webkit-text-size-adjust: none; background: #22bC66; border-color: #22bc66; border-radius: 3px; border-style: solid; border-width: 10px 18px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); box-sizing: border-box; color: #FFF; display: inline-block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; text-decoration: none; }
+ .fi_ArticleImageMedium { max-width: 300px;}
+ .fi_textNoDecoration { text-decoration: none !important; font-weight: normal !important; font: 400 13.3333px Arial !important; }
+ .fi_FrameView { height: calc(100vh - 106px); }
+ .fi_FramePageView { height: calc(100vh - 148px); }
+ .fi_zIndex_-1 { z-index: -1; } 
+ .fi_zIndex_1 { z-index: 1; }
+ .fi_zIndex_2 { z-index: 2; }
+ .fi_zIndex_3 { z-index: 3; }
+ .fi_zIndex_1030 { z-index: 1030; }
+ .fi_zIndex_1051 { z-index: 1051; }
+ .fi_zIndex_1052 { z-index: 1052; }
+ .fi_zIndex_1054 { z-index: 1054; }
+ .fi_zIndex_1055 { z-index: 1055; }
+ .fi_zIndex_1056 { z-index: 1056; }
+ .fi_zIndex_1100 { z-index: 1100; }
+ .fi_zIndex_1110 { z-index: 1110; }
+
+ .fi_positionRelative { position: relative; }
+ .fi_positionAbsolute { position: absolute; }
+ .fi_positionSticky { position: sticky; position: -webkit-sticky; }
+
+ .fi_Bottom_0 { bottom: 0; }
+ .fi_Bottom_2 { bottom: 2px; }
+ .fi_Bottom_4 { bottom: 4px; }
+ .fi_Bottom_6 { bottom: 6px; }
+ .fi_Bottom_8 { bottom: 8px; }
+ .fi_Left_0 { left: 0; }
+ .fi_Left_2 { left: 2px; }
+ .fi_Left_4 { left: 4px; }
+ .fi_Left_6 { left: 6px; }
+ .fi_Left_8 { left: 8px; }
+ .fi_Left_10 { left: 10px; }
+ .fi_Left_20 { left: 20px; }
+ .fi_Left_30 { left: 30px; }
+ .fi_Left_40 { left: 40px; }
+ .fi_Left_50 { left: 50px; }
+ .fi_Left_60 { left: 60px; }
+ .fi_Left_70 { left: 70px; }
+ .fi_Left_80 { left: 80px; }
+ .fi_Left_90 { left: 90px; }
+ .fi_Left_100 { left: 100px; }
+
+ .fi_Left_-12 { left: -12px; }
+ .fi_Left_1200 { left: 1200px; }
+
+ .fi_Right_0 { right: 0; }
+ .fi_Right_2 { right: 2px; }
+ .fi_Right_4 { right: 4px; }
+ .fi_Right_6 { right: 6px; }
+ .fi_Right_8 { right: 8px; }
+ .fi_Right_10 { right: 10px; }
+ .fi_Right_20 { right: 20px; }
+ .fi_Right_30 { right: 30px; }
+ .fi_Right_40 { right: 40px; }
+ .fi_Right_50 { right: 50px; }
+ .fi_Right_60 { right: 60px; }
+ .fi_Right_70 { right: 70px; }
+ .fi_Right_80 { right: 80px; }
+ .fi_Right_90 { right: 90px; }
+ .fi_Right_100 { right: 100px; }
+
+ .fi_Right_-8 { right: -8px; }
+ .fi_Right_-10 { right: -10px; }
+ .fi_Right_-12 { right: -12px; }
+
+ .fi_Top_-18 { top: -18px; } 
+ .fi_Top_0 { top: 0; }
+ .fi_Top_1 { top: 1px; }
+ .fi_Top_2 { top: 2px; }
+ .fi_Top_3 { top: 3px; }
+ .fi_Top_4 { top: 4px; }
+ .fi_Top_5 { top: 5px; }
+ .fi_Top_6 { top: 6px; }
+ .fi_Top_7 { top: 7px; }
+ .fi_Top_8 { top: 8px; }
+ .fi_Top_9 { top: 9px; }
+ .fi_Top_10 { top: 10px; }
+ .fi_Top_11 { top: 11px; }
+ .fi_Top_12 { top: 12px; }
+ .fi_Top_13 { top: 13px; }
+ .fi_Top_14 { top: 14px; }
+ .fi_Top_15 { top: 15px; }
+ .fi_Top_16 { top: 16px; }
+ .fi_Top_17 { top: 17px; }
+ .fi_Top_18 { top: 18px; }
+ .fi_Top_19 { top: 19px; }
+ .fi_Top_20 { top: 20px; }
+ .fi_Top_21 { top: 21px; }
+ .fi_Top_22 { top: 22px; }
+ .fi_Top_23 { top: 23px; }
+ .fi_Top_24 { top: 24px; }
+ .fi_Top_25 { top: 25px; }
+ .fi_Top_26 { top: 26px; }
+ .fi_Top_27 { top: 27px; }
+ .fi_Top_28 { top: 28px; }
+ .fi_Top_29 { top: 29px; }
+ .fi_Top_30 { top: 30px; }
+ .fi_Top_31 { top: 31px; }
+ .fi_Top_32 { top: 32px; }
+ .fi_Top_33 { top: 33px; }
+ .fi_Top_34 { top: 34px; }
+ .fi_Top_35 { top: 35px; }
+ .fi_Top_36 { top: 36px; }
+ .fi_Top_37 { top: 37px; }
+ .fi_Top_38 { top: 38px; }
+ .fi_Top_39 { top: 39px; }
+ .fi_Top_40 { top: 40px; }
+ .fi_Top_41 { top: 41px; }
+ .fi_Top_42 { top: 42px; }
+ .fi_Top_43 { top: 43px; }
+ .fi_Top_44 { top: 44px; }
+ .fi_Top_45 { top: 45px; }
+ .fi_Top_46 { top: 46px; }
+ .fi_Top_47 { top: 47px; }
+ .fi_Top_48 { top: 48px; }
+ .fi_Top_49 { top: 49px; }
+ .fi_Top_50 { top: 50px; }
+ .fi_Top_60 { top: 60px; }
+ .fi_Top_70 { top: 70px; }
+ .fi_Top_80 { top: 80px; }
+ .fi_Top_90 { top: 90px; }
+ .fi_Top_100 { top: 100px; }
+ .fi_Top_102 { top: 102px; }
+ .fi_Top_200 { top: 200px; }
+ .fi_Top_300 { top: 300px; }
+ .fi_Top_400 { top: 400px; }
+ .fi_Top_500 { top: 500px; }
+ .fi_Top_600 { top: 600px; }
+ .fi_Top_700 { top: 700px; }
+ .fi_Top_800 { top: 800px; }
+ .fi_Top_900 { top: 900px; }
+ .fi_Top_1000 { top: 1000px; }
+ 
+ 
+ .fi_Opacity_01 { opacity: 0.1; }
+ .fi_Opacity_02 { opacity: 0.2; }
+ .fi_Opacity_03 { opacity: 0.3; }
+ .fi_Opacity_04 { opacity: 0.4; }
+ .fi_Opacity_05 { opacity: 0.5; }
+ .fi_Opacity_06 { opacity: 0.6; }
+ .fi_Opacity_07 { opacity: 0.7; }
+ .fi_Opacity_08 { opacity: 0.8; }
+ .fi_Opacity_09 { opacity: 0.9; }
+ 
+ .fi_BorderRadius_0 { border-radius: 0; }
+ .fi_BorderRadius_4 { border-radius: 4px; }
+ .fi_BorderRadius_5 { border-radius: 5px; }
+ .fi_BorderStyleNone { border-style: none; }
+
+ .fi_noWrap { white-space: nowrap !important; flex-wrap: nowrap !important; }
+
+ .fi_Width_mm_0 { width: 0mm; }
+ .fi_Width_mm_1 { width: 1mm; }
+ .fi_Width_mm_2 { width: 2mm; }
+ .fi_Width_mm_4 { width: 4mm; }
+ .fi_Width_mm_6 { width: 6mm; }
+ .fi_Width_mm_8 { width: 8mm; }
+ .fi_Width_mm_10 { width: 10mm; }
+ .fi_Width_mm_12 { width: 12mm; }
+ .fi_Width_mm_14 { width: 14mm; }
+ .fi_Width_mm_16 { width: 16mm; }
+ .fi_Width_mm_18 { width: 18mm; }
+ .fi_Width_mm_20 { width: 20mm; }
+ .fi_Width_mm_22 { width: 22mm; }
+ .fi_Width_mm_24 { width: 24mm; }
+ .fi_Width_mm_26 { width: 26mm; }
+ .fi_Width_mm_28 { width: 28mm; }
+ .fi_Width_mm_30 { width: 30mm; }
+ .fi_Width_mm_32 { width: 32mm; }
+ .fi_Width_mm_34 { width: 34mm; }
+ .fi_Width_mm_36 { width: 36mm; }
+ .fi_Width_mm_38 { width: 38mm; }
+ .fi_Width_mm_40 { width: 40mm; }
+ .fi_Width_mm_42 { width: 42mm; }
+ .fi_Width_mm_44 { width: 44mm; }
+ .fi_Width_mm_46 { width: 46mm; }
+ .fi_Width_mm_48 { width: 48mm; }
+ .fi_Width_mm_50 { width: 50mm; }
+ .fi_Width_mm_52 { width: 52mm; }
+ .fi_Width_mm_54 { width: 54mm; }
+ .fi_Width_mm_56 { width: 56mm; }
+ .fi_Width_mm_58 { width: 58mm; }
+ .fi_Width_mm_60 { width: 60mm; }
+ .fi_Width_mm_62 { width: 62mm; }
+ .fi_Width_mm_64 { width: 64mm; }
+ .fi_Width_mm_66 { width: 66mm; }
+ .fi_Width_mm_68 { width: 68mm; }
+ .fi_Width_mm_70 { width: 70mm; }
+ .fi_Width_mm_72 { width: 72mm; }
+ .fi_Width_mm_74 { width: 74mm; }
+ .fi_Width_mm_76 { width: 76mm; }
+ .fi_Width_mm_78 { width: 78mm; }
+ .fi_Width_mm_80 { width: 80mm; }
+ .fi_Width_mm_82 { width: 82mm; }
+ .fi_Width_mm_84 { width: 84mm; }
+ .fi_Width_mm_86 { width: 86mm; }
+ .fi_Width_mm_88 { width: 88mm; }
+ .fi_Width_mm_90 { width: 90mm; }
+ .fi_Width_mm_92 { width: 92mm; }
+ .fi_Width_mm_94 { width: 94mm; }
+ .fi_Width_mm_96 { width: 96mm; }
+ .fi_Width_mm_98 { width: 98mm; }
+ .fi_Width_mm_100 { width: 100mm; }
+ .fi_Width_mm_110 { width: 110mm; }
+ .fi_Width_mm_120 { width: 120mm; }
+ .fi_Width_mm_130 { width: 130mm; }
+ .fi_Width_mm_140 { width: 140mm; }
+ .fi_Width_mm_150 { width: 150mm; }
+ .fi_Width_mm_160 { width: 160mm; }
+ .fi_Width_mm_170 { width: 170mm; }
+ .fi_Width_mm_180 { width: 180mm; }
+ .fi_Width_mm_190 { width: 190mm; }
+ .fi_Width_mm_200 { width: 200mm; }
+
+ .fi_Width_0 { width: 0px !important; }
+ .fi_Width_1 { width: 1px; }
+ .fi_Width_2 { width: 2px; }
+ .fi_Width_4 { width: 4px; }
+ .fi_Width_6 { width: 6px; }
+ .fi_Width_8 { width: 8px; }
+ .fi_Width_10 { width: 10px; }
+ .fi_Width_12 { width: 12px; }
+ .fi_Width_14 { width: 14px; }
+ .fi_Width_16 { width: 16px; }
+ .fi_Width_18 { width: 18px; }
+ .fi_Width_20 { width: 20px; }
+ .fi_Width_22 { width: 22px; }
+ .fi_Width_24 { width: 24px; }
+ .fi_Width_25 { width: 25px; }
+ .fi_Width_26 { width: 26px; }
+ .fi_Width_28 { width: 28px; }
+ .fi_Width_30 { width: 30px; }
+ .fi_Width_32 { width: 32px; }
+ .fi_Width_34 { width: 34px; }
+ .fi_Width_36 { width: 36px; }
+ .fi_Width_38 { width: 38px; }
+ .fi_Width_40 { width: 40px; }
+ .fi_Width_42 { width: 42px; }
+ .fi_Width_44 { width: 44px; }
+ .fi_Width_46 { width: 46px; }
+ .fi_Width_48 { width: 48px; }
+ .fi_Width_50 { width: 50px; }
+ .fi_Width_52 { width: 52px; }
+ .fi_Width_54 { width: 54px; }
+ .fi_Width_56 { width: 56px; }
+ .fi_Width_58 { width: 58px; }
+ .fi_Width_60 { width: 60px; }
+ .fi_Width_62 { width: 62px; }
+ .fi_Width_64 { width: 64px; }
+ .fi_Width_66 { width: 66px; }
+ .fi_Width_68 { width: 68px; }
+ .fi_Width_70 { width: 70px; }
+ .fi_Width_75 { width: 75px; }
+ .fi_Width_80 { width: 80px; }
+ .fi_Width_82 { width: 82px; }
+ .fi_Width_90 { width: 90px; }
+ .fi_Width_100 { width: 100px; }
+ .fi_Width_110 { width: 110px; }
+ .fi_Width_120 { width: 120px; }
+ .fi_Width_125 { width: 125px; }
+ .fi_Width_128 { width: 128px; }
+ .fi_Width_130 { width: 130px; }
+ .fi_Width_140 { width: 140px; }
+ .fi_Width_150 { width: 150px; }
+ .fi_Width_156 { width: 156px; }
+ .fi_Width_160 { width: 160px; }
+ .fi_Width_170 { width: 170px; }
+ .fi_Width_180 { width: 180px; }
+ .fi_Width_190 { width: 190px; }
+ .fi_Width_200 { width: 200px; }
+ .fi_Width_210 { width: 210px; }
+ .fi_Width_220 { width: 220px; }
+ .fi_Width_250 { width: 250px; }
+ .fi_Width_300 { width: 300px; }
+ .fi_Width_320 { width: 320px; }
+ .fi_Width_360 { width: 360px; }
+ .fi_Width_384 { width: 384px; }
+ .fi_Width_464 { width: 464px; }
+ .fi_Width_400 { width: 400px; }
+ .fi_Width_470 { width: 470px; }
+ .fi_Width_800 { width: 800px; }
+ 
+ .fi_maxWidth_48 { max-width: 48px; }
+ .fi_maxWidth_75 { max-width: 75px; }
+ .fi_maxWidth_80 { max-width: 80px; }
+ .fi_maxWidth_100 { max-width: 100px; }
+ .fi_maxWidth_120 { max-width: 120px !important; }
+ .fi_maxWidth_150 { max-width: 150px; }
+ .fi_maxWidth_170 { max-width: 170px; }
+ .fi_maxWidth_280 { max-width: 280px; }
+ .fi_maxWidth_340 { max-width: 340px; }
+ .fi_maxWidth_rem_26 { max-width: 26rem; }
+ .fi_minWidth_200 { min-width: 200px; }
+ .fi_WidthAuto { width: auto; }
+
+ .fi_minHeight_60 { min-height: 60px; }
+ .fi_minHeight_75 { min-height: 75px; }
+ .fi_minHeight_80 { min-height: 80px; }
+ .fi_minHeight_104 { min-height: 104px; }
+ 
+ .fi_WidthPer_0 { width: 0% !important; }
+ .fi_WidthPer_10 { width: 10%; }
+ .fi_WidthPer_20 { width: 20%; }
+ .fi_WidthPer_30 { width: 30%; }
+ .fi_WidthPer_33 { width: 33%; }
+ .fi_WidthPer_40 { width: 40%; }
+ .fi_WidthPer_50 { width: 50%; }
+ .fi_WidthPer_60 { width: 60%; }
+ .fi_WidthPer_66 { width: 66%; }
+ .fi_WidthPer_70 { width: 70%; }
+ .fi_WidthPer_80 { width: 80%; }
+ .fi_WidthPer_90 { width: 90%; }
+ .fi_WidthPer_100 { width: 100% !important; }
+ 
+ .fi_Height_0 { height: 0px !important; }
+ .fi_Height_1 { height: 1px; }
+ .fi_Height_2 { height: 2px; }
+ .fi_Height_3 { height: 3px; }
+ .fi_Height_4 { height: 4px; }
+ .fi_Height_5 { height: 5px; }
+ .fi_Height_6 { height: 6px; }
+ .fi_Height_7 { height: 7px; }
+ .fi_Height_8 { height: 8px; }
+ .fi_Height_9 { height: 9px; }
+ .fi_Height_10 { height: 10px; }
+ .fi_Height_11 { height: 11px; }
+ .fi_Height_12 { height: 12px; }
+ .fi_Height_13 { height: 13px; }
+ .fi_Height_14 { height: 14px; }
+ .fi_Height_15 { height: 15px; }
+ .fi_Height_16 { height: 16px; }
+ .fi_Height_17 { height: 17px; }
+ .fi_Height_18 { height: 18px; }
+ .fi_Height_19 { height: 19px; }
+ .fi_Height_20 { height: 20px; }
+ .fi_Height_21 { height: 21px; }
+ .fi_Height_22 { height: 22px; }
+ .fi_Height_23 { height: 23px; }
+ .fi_Height_24 { height: 24px; }
+ .fi_Height_25 { height: 25px; }
+ .fi_Height_26 { height: 26px; }
+ .fi_Height_27 { height: 27px; }
+ .fi_Height_28 { height: 28px; }
+ .fi_Height_29 { height: 29px; }
+ .fi_Height_30 { height: 30px; }
+ .fi_Height_31 { height: 31px; }
+ .fi_Height_32 { height: 32px; }
+ .fi_Height_33 { height: 33px; }
+ .fi_Height_34 { height: 34px; }
+ .fi_Height_35 { height: 35px; }
+ .fi_Height_36 { height: 36px; }
+ .fi_Height_37 { height: 37px; }
+ .fi_Height_38 { height: 38px; }
+ .fi_Height_39 { height: 39px; }
+ .fi_Height_40 { height: 40px; }
+ .fi_Height_41 { height: 41px; }
+ .fi_Height_42 { height: 42px; }
+ .fi_Height_43 { height: 43px; }
+ .fi_Height_44 { height: 44px; }
+ .fi_Height_45 { height: 45px; }
+ .fi_Height_46 { height: 46px; }
+ .fi_Height_47 { height: 47px; }
+ .fi_Height_48 { height: 48px; }
+ .fi_Height_49 { height: 49px; }
+ .fi_Height_50 { height: 50px; }
+ .fi_Height_51 { height: 51px; }
+ .fi_Height_52 { height: 52px; }
+ .fi_Height_53 { height: 53px; }
+ .fi_Height_54 { height: 54px; }
+ .fi_Height_55 { height: 55px; }
+ .fi_Height_56 { height: 56px; }
+ .fi_Height_57 { height: 57px; }
+ .fi_Height_58 { height: 58px; }
+ .fi_Height_59 { height: 59px; }
+ .fi_Height_60 { height: 60px; }
+ .fi_Height_61 { height: 61px; }
+ .fi_Height_62 { height: 62px; }
+ .fi_Height_63 { height: 63px; }
+ .fi_Height_64 { height: 64px; }
+ .fi_Height_65 { height: 65px; }
+ .fi_Height_66 { height: 66px; }
+ .fi_Height_67 { height: 67px; }
+ .fi_Height_68 { height: 68px; }
+ .fi_Height_69 { height: 69px; }
+ .fi_Height_70 { height: 70px; }
+ .fi_Height_71 { height: 71px; }
+ .fi_Height_72 { height: 72px; }
+ .fi_Height_73 { height: 73px; }
+ .fi_Height_74 { height: 74px; }
+ .fi_Height_75 { height: 75px; }
+ .fi_Height_76 { height: 76px; }
+ .fi_Height_77 { height: 77px; }
+ .fi_Height_78 { height: 78px; }
+ .fi_Height_79 { height: 79px; }
+ .fi_Height_80 { height: 80px; }
+ .fi_Height_81 { height: 81px; }
+ .fi_Height_82 { height: 82px; }
+ .fi_Height_83 { height: 83px; }
+ .fi_Height_84 { height: 84px; }
+ .fi_Height_85 { height: 85px; }
+ .fi_Height_86 { height: 86px; }
+ .fi_Height_87 { height: 87px; }
+ .fi_Height_88 { height: 88px; }
+ .fi_Height_89 { height: 89px; }
+ .fi_Height_90 { height: 90px; }
+ .fi_Height_100 { height: 100px; }
+ .fi_Height_110 { height: 110px; }
+ .fi_Height_120 { height: 120px; }
+ .fi_Height_130 { height: 130px; }
+ .fi_Height_140 { height: 140px; }
+ .fi_Height_150 { height: 150px; }
+ .fi_Height_160 { height: 160px; }
+ .fi_Height_170 { height: 170px; }
+ .fi_Height_180 { height: 180px; }
+ .fi_Height_190 { height: 190px; }
+ .fi_Height_200 { height: 200px; }
+ .fi_Height_210 { height: 210px; }
+ .fi_Height_250 { height: 250px; }
+ .fi_Height_300 { height: 300px; }
+ .fi_Height_400 { height: 400px; }
+ .fi_Height_500 { height: 500px; }
+ .fi_Height_580 { height: 580px; }
+ .fi_Height_600 { height: 600px; }
+ 
+ .fi_HeightAuto { height: auto; }
+ 
+ .fi_HeightPer_0 { height: 0% !important; }
+ .fi_HeightPer_10 { height: 10%; }
+ .fi_HeightPer_20 { height: 20%; }
+ .fi_HeightPer_30 { height: 30%; }
+ .fi_HeightPer_40 { height: 40%; }
+ .fi_HeightPer_50 { height: 50%; }
+ .fi_HeightPer_60 { height: 60%; }
+ .fi_HeightPer_70 { height: 70%; }
+ .fi_HeightPer_80 { height: 80%; }
+ .fi_HeightPer_90 { height: 90%; }
+ .fi_HeightPer_100 { height: 100% !important; }
+ 
+ .fi_HeightEM_0 { height: 0em !important; }
+ .fi_HeightEM_1 { height: 1em; }
+ .fi_HeightEM_2 { height: 2em; }
+ .fi_HeightEM_3 { height: 3em; }
+ .fi_HeightEM_4 { height: 4em; }
+ .fi_HeightEM_5 { height: 5em; }
+ .fi_HeightEM_6 { height: 6em; }
+ .fi_HeightEM_7 { height: 7em; }
+ .fi_HeightEM_8 { height: 8em; }
+ .fi_HeightEM_9 { height: 9em; }
+ .fi_HeightEM_10 { height: 10em; }
+ .fi_HeightEM_11 { height: 11em; }
+ .fi_HeightEM_12 { height: 12em; }
+ .fi_HeightEM_13 { height: 13em; }
+ .fi_HeightEM_14 { height: 14em; }
+ .fi_HeightEM_15 { height: 15em; }
+ .fi_HeightEM_16 { height: 16em; }
+ .fi_HeightEM_17 { height: 17em; }
+ .fi_HeightEM_18 { height: 18em; }
+ .fi_HeightEM_19 { height: 19em; }
+ 
+ .fi_P_0  { padding: 0 !important; }
+ .fi_P_1  { padding: 1px !important; }
+ .fi_P_2  { padding: 2px !important; }
+ .fi_P_3  { padding: 3px !important; }
+ .fi_P_4  { padding: 4px !important; }
+ .fi_P_5  { padding: 5px !important; }
+ .fi_P_6  { padding: 6px !important; }
+ .fi_P_7  { padding: 7px !important; }
+ .fi_P_8  { padding: 8px !important; }
+ .fi_P_9  { padding: 9px !important; }
+ .fi_P_10 { padding: 10px !important; }
+ .fi_P_11 { padding: 11px !important; }
+ .fi_P_12 { padding: 12px !important; }
+ .fi_P_13 { padding: 13px !important; }
+ .fi_P_14 { padding: 14px !important; }
+ .fi_P_15 { padding: 15px !important; }
+ .fi_P_16 { padding: 16px !important; }
+ .fi_P_17 { padding: 17px !important; }
+ .fi_P_18 { padding: 18px !important; }
+ .fi_P_19 { padding: 19px !important; }
+ .fi_P_20 { padding: 20px !important; }
+ .fi_P_30 { padding: 30px !important; }
+ .fi_P_35 { padding: 35px !important; }
+ 
+ .fi_PL_0  { padding-left: 0 !important; }
+ .fi_PL_1  { padding-left: 1px !important; }
+ .fi_PL_2  { padding-left: 2px !important; }
+ .fi_PL_3  { padding-left: 3px !important; }
+ .fi_PL_4  { padding-left: 4px !important; }
+ .fi_PL_5  { padding-left: 5px !important; }
+ .fi_PL_6  { padding-left: 6px !important; }
+ .fi_PL_7  { padding-left: 7px !important; }
+ .fi_PL_8  { padding-left: 8px !important; }
+ .fi_PL_9  { padding-left: 9px !important; }
+ .fi_PL_10 { padding-left: 10px !important; }
+ .fi_PL_11 { padding-left: 11px !important; }
+ .fi_PL_12 { padding-left: 12px !important; }
+ .fi_PL_13 { padding-left: 13px !important; }
+ .fi_PL_14 { padding-left: 14px !important; }
+ .fi_PL_15 { padding-left: 15px !important; }
+ .fi_PL_16 { padding-left: 16px !important; }
+ .fi_PL_17 { padding-left: 17px !important; }
+ .fi_PL_18 { padding-left: 18px !important; }
+ .fi_PL_19 { padding-left: 19px !important; }
+ .fi_PL_20 { padding-left: 20px !important; }
+ .fi_PL_30 { padding-left: 30px !important; }
+ 
+ .fi_PT_0  { padding-top: 0 !important; }
+ .fi_PT_1  { padding-top: 1px !important; }
+ .fi_PT_2  { padding-top: 2px !important; }
+ .fi_PT_3  { padding-top: 3px !important; }
+ .fi_PT_4  { padding-top: 4px !important; }
+ .fi_PT_5  { padding-top: 5px !important; }
+ .fi_PT_6  { padding-top: 6px !important; }
+ .fi_PT_7  { padding-top: 7px !important; }
+ .fi_PT_8  { padding-top: 8px !important; }
+ .fi_PT_9  { padding-top: 9px !important; }
+ .fi_PT_10 { padding-top: 10px !important; }
+ .fi_PT_11 { padding-top: 11px !important; }
+ .fi_PT_12 { padding-top: 12px !important; }
+ .fi_PT_13 { padding-top: 13px !important; }
+ .fi_PT_14 { padding-top: 14px !important; }
+ .fi_PT_15 { padding-top: 15px !important; }
+ .fi_PT_16 { padding-top: 16px !important; }
+ .fi_PT_17 { padding-top: 17px !important; }
+ .fi_PT_18 { padding-top: 18px !important; }
+ .fi_PT_19 { padding-top: 19px !important; }
+ .fi_PT_20 { padding-top: 20px !important; }
+ 
+ .fi_PR_0  { padding-right: 0 !important; }
+ .fi_PR_1  { padding-right: 1px !important; }
+ .fi_PR_2  { padding-right: 2px !important; }
+ .fi_PR_3  { padding-right: 3px !important; }
+ .fi_PR_4  { padding-right: 4px !important; }
+ .fi_PR_5  { padding-right: 5px !important; }
+ .fi_PR_6  { padding-right: 6px !important; }
+ .fi_PR_7  { padding-right: 7px !important; }
+ .fi_PR_8  { padding-right: 8px !important; }
+ .fi_PR_9  { padding-right: 9px !important; }
+ .fi_PR_10 { padding-right: 10px !important; }
+ .fi_PR_11 { padding-right: 11px !important; }
+ .fi_PR_12 { padding-right: 12px !important; }
+ .fi_PR_13 { padding-right: 13px !important; }
+ .fi_PR_14 { padding-right: 14px !important; }
+ .fi_PR_15 { padding-right: 15px !important; }
+ .fi_PR_16 { padding-right: 16px !important; }
+ .fi_PR_17 { padding-right: 17px !important; }
+ .fi_PR_18 { padding-right: 18px !important; }
+ .fi_PR_19 { padding-right: 19px !important; }
+ .fi_PR_20 { padding-right: 20px !important; }
+ .fi_PR_30 { padding-right: 30px !important; }
+ .fi_PR_40 { padding-right: 40px !important; }
+ .fi_PR_103 { padding-right: 103px !important; }
+ 
+ .fi_PB_0  { padding-bottom: 0 !important; }
+ .fi_PB_1  { padding-bottom: 1px !important; }
+ .fi_PB_2  { padding-bottom: 2px !important; }
+ .fi_PB_3  { padding-bottom: 3px !important; }
+ .fi_PB_4  { padding-bottom: 4px !important; }
+ .fi_PB_5  { padding-bottom: 5px !important; }
+ .fi_PB_6  { padding-bottom: 6px !important; }
+ .fi_PB_7  { padding-bottom: 7px !important; }
+ .fi_PB_8  { padding-bottom: 8px !important; }
+ .fi_PB_9  { padding-bottom: 9px !important; }
+ .fi_PB_10 { padding-bottom: 10px !important; }
+ .fi_PB_11 { padding-bottom: 11px !important; }
+ .fi_PB_12 { padding-bottom: 12px !important; }
+ .fi_PB_13 { padding-bottom: 13px !important; }
+ .fi_PB_14 { padding-bottom: 14px !important; }
+ .fi_PB_15 { padding-bottom: 15px !important; }
+ .fi_PB_16 { padding-bottom: 16px !important; }
+ .fi_PB_17 { padding-bottom: 17px !important; }
+ .fi_PB_18 { padding-bottom: 18px !important; }
+ .fi_PB_19 { padding-bottom: 19px !important; }
+ .fi_PB_20 { padding-bottom: 20px !important; }
+ 
+ .fi_M_0  { margin: 0 !important; }
+ .fi_M_1  { margin: 1px !important; }
+ .fi_M_2  { margin: 2px !important; }
+ .fi_M_3  { margin: 3px !important; }
+ .fi_M_4  { margin: 4px !important; }
+ .fi_M_5  { margin: 5px !important; }
+ .fi_M_6  { margin: 6px; }
+ .fi_M_7  { margin: 7px; }
+ .fi_M_8  { margin: 8px; }
+ .fi_M_9  { margin: 9px; }
+ .fi_M_10 { margin: 10px; }
+ .fi_M_11 { margin: 11px; }
+ .fi_M_12 { margin: 12px; }
+ .fi_M_13 { margin: 13px; }
+ .fi_M_14 { margin: 14px; }
+ .fi_M_15 { margin: 15px; }
+ .fi_M_16 { margin: 16px; }
+ .fi_M_17 { margin: 17px; }
+ .fi_M_18 { margin: 18px; }
+ .fi_M_19 { margin: 19px; }
+ .fi_M_20 { margin: 20px; }
+ .fi_M_30 { margin: 30px; }
+ 
+ .fi_ML_-1  { margin-left: -1px; }
+ .fi_ML_-2  { margin-left: -2px; }
+ .fi_ML_0  { margin-left: 0 !important; }
+ .fi_ML_1  { margin-left: 1px; }
+ .fi_ML_2  { margin-left: 2px; }
+ .fi_ML_3  { margin-left: 3px; }
+ .fi_ML_4  { margin-left: 4px; }
+ .fi_ML_5  { margin-left: 5px; }
+ .fi_ML_6  { margin-left: 6px; }
+ .fi_ML_7  { margin-left: 7px; }
+ .fi_ML_8  { margin-left: 8px; }
+ .fi_ML_9  { margin-left: 9px; }
+ .fi_ML_10 { margin-left: 10px; }
+ .fi_ML_11 { margin-left: 11px; }
+ .fi_ML_12 { margin-left: 12px; }
+ .fi_ML_13 { margin-left: 13px; }
+ .fi_ML_14 { margin-left: 14px; }
+ .fi_ML_15 { margin-left: 15px; }
+ .fi_ML_16 { margin-left: 16px; }
+ .fi_ML_17 { margin-left: 17px; }
+ .fi_ML_18 { margin-left: 18px; }
+ .fi_ML_19 { margin-left: 19px; }
+ .fi_ML_20 { margin-left: 20px; }
+ 
+ .fi_MT_-1  { margin-top: -1px !important; }
+ .fi_MT_-2  { margin-top: -2px !important; }
+ .fi_MT_-3  { margin-top: -3px !important; }
+ .fi_MT_-4  { margin-top: -4px !important; }
+ .fi_MT_-5  { margin-top: -5px !important; }
+ .fi_MT_-6  { margin-top: -6px !important; }
+ .fi_MT_-7  { margin-top: -7px !important; }
+ .fi_MT_-8  { margin-top: -8px !important; }
+ .fi_MT_-9  { margin-top: -9px !important; }
+ .fi_MT_-10  { margin-top: -10px !important; }
+ .fi_MT_0  { margin-top: 0 !important; }
+ .fi_MT_1  { margin-top: 1px; }
+ .fi_MT_2  { margin-top: 2px; }
+ .fi_MT_3  { margin-top: 3px; }
+ .fi_MT_4  { margin-top: 4px; }
+ .fi_MT_5  { margin-top: 5px; }
+ .fi_MT_6  { margin-top: 6px; }
+ .fi_MT_7  { margin-top: 7px; }
+ .fi_MT_8  { margin-top: 8px; }
+ .fi_MT_9  { margin-top: 9px; }
+ .fi_MT_10 { margin-top: 10px; }
+ .fi_MT_11 { margin-top: 11px; }
+ .fi_MT_12 { margin-top: 12px; }
+ .fi_MT_13 { margin-top: 13px; }
+ .fi_MT_14 { margin-top: 14px; }
+ .fi_MT_15 { margin-top: 15px; }
+ .fi_MT_16 { margin-top: 16px; }
+ .fi_MT_17 { margin-top: 17px; }
+ .fi_MT_18 { margin-top: 18px; }
+ .fi_MT_19 { margin-top: 19px; }
+ .fi_MT_20 { margin-top: 20px; }
+ 
+ .fi_MR_0  { margin-right: 0 !important; }
+ .fi_MR_1  { margin-right: 1px !important; }
+ .fi_MR_2  { margin-right: 2px !important; }
+ .fi_MR_3  { margin-right: 3px !important; }
+ .fi_MR_4  { margin-right: 4px !important; }
+ .fi_MR_5  { margin-right: 5px !important; }
+ .fi_MR_6  { margin-right: 6px !important; }
+ .fi_MR_7  { margin-right: 7px !important; }
+ .fi_MR_8  { margin-right: 8px !important; }
+ .fi_MR_9  { margin-right: 9px !important; }
+ .fi_MR_10 { margin-right: 10px !important; }
+ .fi_MR_11 { margin-right: 11px !important; }
+ .fi_MR_12 { margin-right: 12px !important; }
+ .fi_MR_13 { margin-right: 13px !important; }
+ .fi_MR_14 { margin-right: 14px !important; }
+ .fi_MR_15 { margin-right: 15px !important; }
+ .fi_MR_16 { margin-right: 16px !important; }
+ .fi_MR_17 { margin-right: 17px !important; }
+ .fi_MR_18 { margin-right: 18px !important; }
+ .fi_MR_19 { margin-right: 19px !important; }
+ .fi_MR_20 { margin-right: 20px !important; }
+ 
+ .fi_MB_0  { margin-bottom: 0 !important; }
+ .fi_MB_1  { margin-bottom: 1px !important; }
+ .fi_MB_2  { margin-bottom: 2px !important; }
+ .fi_MB_3  { margin-bottom: 3px !important; }
+ .fi_MB_4  { margin-bottom: 4px !important; }
+ .fi_MB_5  { margin-bottom: 5px !important; }
+ .fi_MB_6  { margin-bottom: 6px !important; }
+ .fi_MB_7  { margin-bottom: 7px !important; }
+ .fi_MB_8  { margin-bottom: 8px !important; }
+ .fi_MB_9  { margin-bottom: 9px !important; }
+ .fi_MB_10 { margin-bottom: 10px !important; }
+ .fi_MB_11 { margin-bottom: 11px !important; }
+ .fi_MB_12 { margin-bottom: 12px !important; }
+ .fi_MB_13 { margin-bottom: 13px !important; }
+ .fi_MB_14 { margin-bottom: 14px !important; }
+ .fi_MB_15 { margin-bottom: 15px !important; }
+ .fi_MB_16 { margin-bottom: 16px !important; }
+ .fi_MB_17 { margin-bottom: 17px !important; }
+ .fi_MB_18 { margin-bottom: 18px !important; }
+ .fi_MB_19 { margin-bottom: 19px !important; }
+ .fi_MB_20 { margin-bottom: 20px !important; }
+ 
+ .fi_Hidden { visibility: hidden; }
+ .fi_Visible { visibility: visible; }
+ .fi_Collapse { visibility: collapse; }
+ 
+ #sortable { list-style-type: none; margin: 0; padding: 0; }
+ #sortable li { padding: 0; margin: 4px 0 0 0; }
+ 
+ #SortablePosition { list-style-type: none; margin: 0; padding: 0; }
+ #SortablePosition li { padding: 0; margin: 4px 0 0 0; }
+ 
+ #SortableItems { list-style-type: none; margin: 0; padding: 0; }
+ #SortableItems li { padding: 0; margin: 4px 0 0 0; }
+ 
+ #AvailItem { list-style-type: none; margin: 0; padding: 0; }
+ #AvailItem li { padding: 0px; margin: 0; }
+ 
+ .ui-state-highlight-sort { height: 50px; border-style: solid; border-color: #dad55e; border-width: 1px; background-color: #fffa90; }
+ 
+ .noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ } 
+
+ .fi_AnimateGrow, .fi_AnimateGrow2, .fi_AnimateGrow_sm {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(40, 40, 40, 0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+ }
+ .fi_AnimateGrow:hover, .fi_AnimateGrow:focus, .fi_AnimateGrow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+ }
+
+ .fi_AnimateGrow2:hover, .fi_AnimateGrow2:focus, .fi_AnimateGrow2:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+ }
+
+ .fi_AnimateGrow_sm:hover, .fi_AnimateGrow_sm:focus, .fi_AnimateGrow_sm:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+ }
+
+
+
